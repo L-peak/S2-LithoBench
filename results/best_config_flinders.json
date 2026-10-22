@@ -1,0 +1,12 @@
+{
+  "region": "flinders",
+  "feature_set": "SITT",
+  "model": "ET",
+  "classes": [
+    "carbonate",
+    "clastic_sedimentary",
+    "mafic_igneous",
+    "metasedimentary",
+    "regolith"
+  ]
+}

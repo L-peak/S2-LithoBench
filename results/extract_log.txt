@@ -1,0 +1,118 @@
+[23:22:13] === Sentinel-2: mount_isa ===
+[23:22:13] mount_isa: 2450 samples
+[23:22:17]   STAC candidates: 80, fully covering: 17
+[23:22:17]   chosen: 2024-08-29(0.0%), 2024-09-13(0.0%), 2024-08-19(0.0%), 2024-08-09(0.0%), 2024-08-04(0.0%)
+[23:22:21]   S2B_54KUC_20240829_0_L2A (2024-08-29) grid=(1417, 1569) usable=2013/2450 scl_done=3s
+[23:22:38]   S2B_54KUC_20240829_0_L2A: bands done in 21s
+[23:22:41]   S2A_54KUC_20240913_0_L2A (2024-09-13) grid=(1417, 1569) usable=2021/2450 scl_done=3s
+[23:24:19]   S2A_54KUC_20240913_0_L2A: bands done in 101s
+[23:24:23]   S2B_54KUC_20240819_0_L2A (2024-08-19) grid=(1417, 1569) usable=1998/2450 scl_done=4s
+[23:24:52]   S2B_54KUC_20240819_0_L2A: bands done in 32s
+[23:24:55]   S2B_54KUC_20240809_0_L2A (2024-08-09) grid=(1417, 1569) usable=1985/2450 scl_done=3s
+[23:27:42]   S2B_54KUC_20240809_0_L2A: bands done in 170s
+[23:27:49]   S2A_54KUC_20240804_0_L2A (2024-08-04) grid=(1417, 1569) usable=2024/2450 scl_done=7s
+[23:29:47]   S2A_54KUC_20240804_0_L2A: bands done in 125s
+D:\HWB\geology-paper\scripts\04_extract_features.py:260: RuntimeWarning: All-NaN slice encountered
+  out[b] = np.nanmedian(band_mean[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:261: RuntimeWarning: All-NaN slice encountered
+  out[f"tex_{b}"] = np.nanmedian(band_std[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:260: RuntimeWarning: All-NaN slice encountered
+  out[b] = np.nanmedian(band_mean[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:261: RuntimeWarning: All-NaN slice encountered
+  out[f"tex_{b}"] = np.nanmedian(band_std[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:260: RuntimeWarning: All-NaN slice encountered
+  out[b] = np.nanmedian(band_mean[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:261: RuntimeWarning: All-NaN slice encountered
+  out[f"tex_{b}"] = np.nanmedian(band_std[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:260: RuntimeWarning: All-NaN slice encountered
+  out[b] = np.nanmedian(band_mean[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:261: RuntimeWarning: All-NaN slice encountered
+  out[f"tex_{b}"] = np.nanmedian(band_std[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:260: RuntimeWarning: All-NaN slice encountered
+  out[b] = np.nanmedian(band_mean[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:261: RuntimeWarning: All-NaN slice encountered
+  out[f"tex_{b}"] = np.nanmedian(band_std[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:260: RuntimeWarning: All-NaN slice encountered
+  out[b] = np.nanmedian(band_mean[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:261: RuntimeWarning: All-NaN slice encountered
+  out[f"tex_{b}"] = np.nanmedian(band_std[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:260: RuntimeWarning: All-NaN slice encountered
+  out[b] = np.nanmedian(band_mean[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:261: RuntimeWarning: All-NaN slice encountered
+  out[f"tex_{b}"] = np.nanmedian(band_std[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:260: RuntimeWarning: All-NaN slice encountered
+  out[b] = np.nanmedian(band_mean[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:261: RuntimeWarning: All-NaN slice encountered
+  out[f"tex_{b}"] = np.nanmedian(band_std[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:260: RuntimeWarning: All-NaN slice encountered
+  out[b] = np.nanmedian(band_mean[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:261: RuntimeWarning: All-NaN slice encountered
+  out[f"tex_{b}"] = np.nanmedian(band_std[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:260: RuntimeWarning: All-NaN slice encountered
+  out[b] = np.nanmedian(band_mean[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:261: RuntimeWarning: All-NaN slice encountered
+  out[f"tex_{b}"] = np.nanmedian(band_std[b], axis=1)
+[23:29:47]   valid-date histogram: [425, 4, 7, 17, 13, 1984]
+[23:29:47]   kept after >= 3 dates: 2014/2450
+[23:29:47]   saved D:\HWB\geology-paper\data\features_s2_mount_isa.csv
+[23:29:47] === DEM: mount_isa ===
+[23:35:33]   DEM merged -> D:\HWB\geology-paper\data\features_mount_isa.csv (2014, 43)
+[23:35:33] === Sentinel-2: flinders ===
+[23:35:33] flinders: 1286 samples
+[23:35:36]   STAC candidates: 34, fully covering: 33
+[23:35:36]   chosen: 2024-06-07(0.1%), 2024-07-22(0.1%), 2024-04-18(0.4%), 2024-04-08(0.4%), 2024-04-13(0.5%)
+[23:35:46]   S2B_54JTL_20240607_0_L2A (2024-06-07) grid=(1439, 1416) usable=1212/1286 scl_done=10s
+[23:37:43]   S2B_54JTL_20240607_0_L2A: bands done in 127s
+[23:37:46]   S2A_54JTL_20240722_0_L2A (2024-07-22) grid=(1439, 1416) usable=1224/1286 scl_done=3s
+[23:38:10]   S2A_54JTL_20240722_0_L2A: bands done in 27s
+[23:38:12]   S2B_54JTL_20240418_0_L2A (2024-04-18) grid=(1439, 1416) usable=1278/1286 scl_done=2s
+[23:40:25]   S2B_54JTL_20240418_0_L2A: bands done in 135s
+[23:40:28]   S2B_54JTL_20240408_0_L2A (2024-04-08) grid=(1439, 1416) usable=1279/1286 scl_done=3s
+[23:40:44]   S2B_54JTL_20240408_0_L2A: bands done in 19s
+[23:40:46]   S2A_54JTL_20240413_0_L2A (2024-04-13) grid=(1439, 1416) usable=1279/1286 scl_done=3s
+[23:41:02]   S2A_54JTL_20240413_0_L2A: bands done in 19s
+D:\HWB\geology-paper\scripts\04_extract_features.py:260: RuntimeWarning: All-NaN slice encountered
+  out[b] = np.nanmedian(band_mean[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:261: RuntimeWarning: All-NaN slice encountered
+  out[f"tex_{b}"] = np.nanmedian(band_std[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:260: RuntimeWarning: All-NaN slice encountered
+  out[b] = np.nanmedian(band_mean[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:261: RuntimeWarning: All-NaN slice encountered
+  out[f"tex_{b}"] = np.nanmedian(band_std[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:260: RuntimeWarning: All-NaN slice encountered
+  out[b] = np.nanmedian(band_mean[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:261: RuntimeWarning: All-NaN slice encountered
+  out[f"tex_{b}"] = np.nanmedian(band_std[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:260: RuntimeWarning: All-NaN slice encountered
+  out[b] = np.nanmedian(band_mean[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:261: RuntimeWarning: All-NaN slice encountered
+  out[f"tex_{b}"] = np.nanmedian(band_std[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:260: RuntimeWarning: All-NaN slice encountered
+  out[b] = np.nanmedian(band_mean[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:261: RuntimeWarning: All-NaN slice encountered
+  out[f"tex_{b}"] = np.nanmedian(band_std[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:260: RuntimeWarning: All-NaN slice encountered
+  out[b] = np.nanmedian(band_mean[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:261: RuntimeWarning: All-NaN slice encountered
+  out[f"tex_{b}"] = np.nanmedian(band_std[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:260: RuntimeWarning: All-NaN slice encountered
+  out[b] = np.nanmedian(band_mean[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:261: RuntimeWarning: All-NaN slice encountered
+  out[f"tex_{b}"] = np.nanmedian(band_std[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:260: RuntimeWarning: All-NaN slice encountered
+  out[b] = np.nanmedian(band_mean[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:261: RuntimeWarning: All-NaN slice encountered
+  out[f"tex_{b}"] = np.nanmedian(band_std[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:260: RuntimeWarning: All-NaN slice encountered
+  out[b] = np.nanmedian(band_mean[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:261: RuntimeWarning: All-NaN slice encountered
+  out[f"tex_{b}"] = np.nanmedian(band_std[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:260: RuntimeWarning: All-NaN slice encountered
+  out[b] = np.nanmedian(band_mean[b], axis=1)
+D:\HWB\geology-paper\scripts\04_extract_features.py:261: RuntimeWarning: All-NaN slice encountered
+  out[f"tex_{b}"] = np.nanmedian(band_std[b], axis=1)
+[23:41:02]   valid-date histogram: [7, 0, 1, 54, 12, 1212]
+[23:41:02]   kept after >= 3 dates: 1278/1286
+[23:41:02]   saved D:\HWB\geology-paper\data\features_s2_flinders.csv
+[23:41:02] === DEM: flinders ===
+[23:43:38]   DEM merged -> D:\HWB\geology-paper\data\features_flinders.csv (1278, 43)

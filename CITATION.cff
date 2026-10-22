@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite the archived release and the manuscript."
+title: "S2-LithoBench: a reproducible benchmark for validation-aware lithological mapping with Sentinel-2 in arid terrains"
+abstract: >-
+  Code and derived data for a reproducible benchmark that compares random and
+  spatially blocked validation for Sentinel-2 lithological mapping in two arid
+  Australian regions, including feature ablations (bands, indices, terrain,
+  texture), five classifiers, a cross-region transfer test, trained-model
+  recipes, figures and analysis scripts.
+type: software
+authors:
+  - family-names: Li
+    given-names: Zhaoyang
+    affiliation: "Henan Polytechnic University, Jiaozuo, Henan 454000, China"
+    email: 3286533389@qq.com
+    orcid: "https://orcid.org/0009-0003-6683-9538"
+license: MIT
+keywords:
+  - lithological mapping
+  - spatial cross-validation
+  - benchmark
+  - Sentinel-2
+  - reproducibility
+  - model transferability
+version: 1.0.0
+date-released: "2026-10-05"
+doi: 10.5281/zenodo.23168523

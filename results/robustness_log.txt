@@ -1,0 +1,56 @@
+=== mount_isa: 2014 samples, 6 classes, 42 geological units ===
+  S    repeated spatial: macro-F1=0.124 [0.124, 0.125]
+  SI   repeated spatial: macro-F1=0.131 [0.130, 0.131]
+  SIT  repeated spatial: macro-F1=0.210 [0.209, 0.212]
+  SITT repeated spatial: macro-F1=0.209 [0.208, 0.210]
+  Wilcoxon SI vs S: p=0.0020
+  Wilcoxon SIT vs SI: p=0.0020
+  Wilcoxon SITT vs SIT: p=0.0020
+  T    repeated spatial (3 seeds): macro-F1=0.199
+  ST   repeated spatial (3 seeds): macro-F1=0.204
+  buffer    0 m: macro-F1=0.205
+  buffer  500 m: macro-F1=0.196
+  buffer 1000 m: macro-F1=0.198
+  buffer 2000 m: macro-F1=0.191
+  blocks k= 5: macro-F1=0.209
+  blocks k=10: macro-F1=0.228
+  blocks k=20: macro-F1=0.207
+  polygon GroupKFold S: macro-F1=0.067
+  polygon GroupKFold SI: macro-F1=0.067
+  polygon GroupKFold SIT: macro-F1=0.091
+  polygon GroupKFold SITT: macro-F1=0.091
+  class-balanced (n/class=117): macro-F1=0.194
+  polygon-capped (<= 17/polygon): macro-F1=0.227
+  label-shuffled control: macro-F1=0.145
+  XGBoost spatial (3 seeds): macro-F1=0.211
+  checkpoint saved for mount_isa
+=== flinders: 1278 samples, 5 classes, 18 geological units ===
+  S    repeated spatial: macro-F1=0.155 [0.154, 0.155]
+  SI   repeated spatial: macro-F1=0.160 [0.159, 0.161]
+  SIT  repeated spatial: macro-F1=0.254 [0.249, 0.259]
+  SITT repeated spatial: macro-F1=0.285 [0.283, 0.289]
+  Wilcoxon SI vs S: p=0.0020
+  Wilcoxon SIT vs SI: p=0.0020
+  Wilcoxon SITT vs SIT: p=0.0020
+  T    repeated spatial (3 seeds): macro-F1=0.279
+  ST   repeated spatial (3 seeds): macro-F1=0.268
+  buffer    0 m: macro-F1=0.289
+  buffer  500 m: macro-F1=0.299
+  buffer 1000 m: macro-F1=0.293
+  buffer 2000 m: macro-F1=0.272
+  blocks k= 5: macro-F1=0.289
+  blocks k=10: macro-F1=0.278
+  blocks k=20: macro-F1=0.256
+  polygon GroupKFold S: macro-F1=0.100
+  polygon GroupKFold SI: macro-F1=0.101
+  polygon GroupKFold SIT: macro-F1=0.108
+  polygon GroupKFold SITT: macro-F1=0.109
+  class-balanced (n/class=103): macro-F1=0.241
+  polygon-capped (<= 20/polygon): macro-F1=0.228
+  label-shuffled control: macro-F1=0.160
+  XGBoost spatial (3 seeds): macro-F1=0.245
+  checkpoint saved for flinders
+saved robustness tables
+transfer mount_isa->flinders: macro-F1=0.260 [0.236,0.282], shuffled=0.198
+transfer flinders->mount_isa: macro-F1=0.260 [0.232,0.287], shuffled=0.104
+done

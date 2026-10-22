@@ -1,0 +1,5 @@
+D:\HWB\geology-paper\scripts\07_map_demo.py:261: RuntimeWarning: All-NaN slice encountered
+  comp[b] = np.nanmedian(stack, axis=0)
+dates: ['2024-08-29', '2024-09-13', '2024-08-19', '2024-08-09', '2024-08-04']
+grid: (400, 400)
+saved map figure

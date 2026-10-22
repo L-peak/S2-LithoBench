@@ -1,0 +1,103 @@
+
+=== mount_isa: 2014 samples, 6 classes ===
+lith_class
+metasedimentary        490
+mafic_igneous          481
+carbonate              449
+regolith               259
+felsic_intrusive       218
+clastic_sedimentary    117
+  S    RF  random  OA=0.335 macroF1=0.286 kappa=0.161
+  S    RF  spatial OA=0.199 macroF1=0.127 kappa=-0.004
+  S    ET  random  OA=0.313 macroF1=0.283 kappa=0.144
+  S    ET  spatial OA=0.188 macroF1=0.124 kappa=-0.020
+  S    HGB random  OA=0.332 macroF1=0.282 kappa=0.152
+  S    HGB spatial OA=0.204 macroF1=0.127 kappa=0.006
+  S    SVM random  OA=0.331 macroF1=0.319 kappa=0.200
+  S    SVM spatial OA=0.183 macroF1=0.123 kappa=-0.008
+  S    MLP random  OA=0.357 macroF1=0.270 kappa=0.172
+  S    MLP spatial OA=0.162 macroF1=0.095 kappa=-0.003
+  SI   RF  random  OA=0.368 macroF1=0.330 kappa=0.204
+  SI   RF  spatial OA=0.201 macroF1=0.130 kappa=0.001
+  SI   ET  random  OA=0.350 macroF1=0.327 kappa=0.190
+  SI   ET  spatial OA=0.201 macroF1=0.133 kappa=0.002
+  SI   HGB random  OA=0.346 macroF1=0.297 kappa=0.168
+  SI   HGB spatial OA=0.200 macroF1=0.126 kappa=0.006
+  SI   SVM random  OA=0.354 macroF1=0.345 kappa=0.222
+  SI   SVM spatial OA=0.187 macroF1=0.126 kappa=-0.001
+  SI   MLP random  OA=0.369 macroF1=0.303 kappa=0.195
+  SI   MLP spatial OA=0.187 macroF1=0.117 kappa=0.002
+  SIT  RF  random  OA=0.579 macroF1=0.529 kappa=0.469
+  SIT  RF  spatial OA=0.309 macroF1=0.208 kappa=0.126
+  SIT  ET  random  OA=0.545 macroF1=0.501 kappa=0.429
+  SIT  ET  spatial OA=0.298 macroF1=0.210 kappa=0.121
+  SIT  HGB random  OA=0.587 macroF1=0.544 kappa=0.480
+  SIT  HGB spatial OA=0.296 macroF1=0.204 kappa=0.114
+  SIT  SVM random  OA=0.498 macroF1=0.478 kappa=0.385
+  SIT  SVM spatial OA=0.251 macroF1=0.179 kappa=0.080
+  SIT  MLP random  OA=0.519 macroF1=0.485 kappa=0.398
+  SIT  MLP spatial OA=0.243 macroF1=0.171 kappa=0.070
+  SITT RF  random  OA=0.572 macroF1=0.522 kappa=0.460
+  SITT RF  spatial OA=0.304 macroF1=0.208 kappa=0.121
+  SITT ET  random  OA=0.557 macroF1=0.512 kappa=0.443
+  SITT ET  spatial OA=0.300 macroF1=0.212 kappa=0.120
+  SITT HGB random  OA=0.587 macroF1=0.540 kappa=0.480
+  SITT HGB spatial OA=0.299 macroF1=0.208 kappa=0.115
+  SITT SVM random  OA=0.496 macroF1=0.474 kappa=0.380
+  SITT SVM spatial OA=0.248 macroF1=0.178 kappa=0.076
+  SITT MLP random  OA=0.488 macroF1=0.446 kappa=0.357
+  SITT MLP spatial OA=0.248 macroF1=0.166 kappa=0.073
+  best spatial config: SITT / ET
+
+=== flinders: 1278 samples, 5 classes ===
+lith_class
+clastic_sedimentary    597
+carbonate              257
+regolith               201
+metasedimentary        120
+mafic_igneous          103
+  S    RF  random  OA=0.459 macroF1=0.375 kappa=0.195
+  S    RF  spatial OA=0.337 macroF1=0.155 kappa=-0.002
+  S    ET  random  OA=0.414 macroF1=0.377 kappa=0.189
+  S    ET  spatial OA=0.284 macroF1=0.152 kappa=-0.011
+  S    HGB random  OA=0.448 macroF1=0.354 kappa=0.164
+  S    HGB spatial OA=0.333 macroF1=0.157 kappa=-0.007
+  S    SVM random  OA=0.349 macroF1=0.356 kappa=0.200
+  S    SVM spatial OA=0.201 macroF1=0.122 kappa=0.018
+  S    MLP random  OA=0.474 macroF1=0.242 kappa=0.077
+  S    MLP spatial OA=0.441 macroF1=0.173 kappa=0.002
+  SI   RF  random  OA=0.455 macroF1=0.374 kappa=0.184
+  SI   RF  spatial OA=0.361 macroF1=0.159 kappa=0.011
+  SI   ET  random  OA=0.437 macroF1=0.395 kappa=0.211
+  SI   ET  spatial OA=0.293 macroF1=0.149 kappa=-0.012
+  SI   HGB random  OA=0.471 macroF1=0.387 kappa=0.192
+  SI   HGB spatial OA=0.349 macroF1=0.159 kappa=0.008
+  SI   SVM random  OA=0.369 macroF1=0.373 kappa=0.211
+  SI   SVM spatial OA=0.223 macroF1=0.135 kappa=0.022
+  SI   MLP random  OA=0.475 macroF1=0.237 kappa=0.081
+  SI   MLP spatial OA=0.414 macroF1=0.161 kappa=0.000
+  SIT  RF  random  OA=0.709 macroF1=0.654 kappa=0.572
+  SIT  RF  spatial OA=0.481 macroF1=0.261 kappa=0.120
+  SIT  ET  random  OA=0.675 macroF1=0.635 kappa=0.543
+  SIT  ET  spatial OA=0.466 macroF1=0.273 kappa=0.132
+  SIT  HGB random  OA=0.736 macroF1=0.689 kappa=0.615
+  SIT  HGB spatial OA=0.504 macroF1=0.284 kappa=0.174
+  SIT  SVM random  OA=0.654 macroF1=0.643 kappa=0.538
+  SIT  SVM spatial OA=0.429 macroF1=0.241 kappa=0.132
+  SIT  MLP random  OA=0.685 macroF1=0.622 kappa=0.539
+  SIT  MLP spatial OA=0.504 macroF1=0.262 kappa=0.159
+  SITT RF  random  OA=0.717 macroF1=0.658 kappa=0.584
+  SITT RF  spatial OA=0.493 macroF1=0.289 kappa=0.137
+  SITT ET  random  OA=0.690 macroF1=0.645 kappa=0.558
+  SITT ET  spatial OA=0.480 macroF1=0.293 kappa=0.141
+  SITT HGB random  OA=0.734 macroF1=0.690 kappa=0.613
+  SITT HGB spatial OA=0.499 macroF1=0.284 kappa=0.167
+  SITT SVM random  OA=0.655 macroF1=0.640 kappa=0.533
+  SITT SVM spatial OA=0.440 macroF1=0.236 kappa=0.137
+  SITT MLP random  OA=0.639 macroF1=0.553 kappa=0.455
+  SITT MLP spatial OA=0.499 macroF1=0.281 kappa=0.179
+  best spatial config: SITT / ET
+transfer mount_isa: 825 samples of shared classes
+transfer flinders: 1055 samples of shared classes
+  mount_isa -> flinders: OA=0.324 macroF1=0.265
+  flinders -> mount_isa: OA=0.268 macroF1=0.261

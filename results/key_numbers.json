@@ -1,0 +1,20 @@
+{
+  "mount_isa": {
+    "random_macro_f1": 0.5218722192526585,
+    "random_macro_f1_sd": 0.02236994146940596,
+    "spatial_macro_f1": 0.2075315868233424,
+    "spatial_macro_f1_sd": 0.034215056867082955,
+    "spatial_oa": 0.3043607766830826,
+    "spatial_kappa": 0.121372164194204,
+    "spectral_only_spatial_macro_f1": 0.12697064225156351
+  },
+  "flinders": {
+    "random_macro_f1": 0.6584483284011446,
+    "random_macro_f1_sd": 0.023403647762005916,
+    "spatial_macro_f1": 0.2889263590360741,
+    "spatial_macro_f1_sd": 0.10559831165080377,
+    "spatial_oa": 0.4931086127139266,
+    "spatial_kappa": 0.13708434714438467,
+    "spectral_only_spatial_macro_f1": 0.15519941704682635
+  }
+}

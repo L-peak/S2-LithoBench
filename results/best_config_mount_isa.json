@@ -1,0 +1,13 @@
+{
+  "region": "mount_isa",
+  "feature_set": "SITT",
+  "model": "ET",
+  "classes": [
+    "carbonate",
+    "clastic_sedimentary",
+    "felsic_intrusive",
+    "mafic_igneous",
+    "metasedimentary",
+    "regolith"
+  ]
+}
